@@ -11,11 +11,11 @@ urlpatterns = [
     path('', include('core.urls')),
     
     # Gerenciamento de Estoque
-    path('estoque/', include('estoque.urls')),
+    #path('estoque/', include('estoque.urls')),
     
     # Gerenciamento de Funcionário
-    path('gestao/', include('gestao.urls')),
+    #path('funcionarios/', include('funcionarios.urls')),
     
     # Vendas e Relatórios
-    path('venda/', include('venda.urls')),
+    #path('venda/', include('venda.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
